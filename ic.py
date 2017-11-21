@@ -6,10 +6,10 @@ from const import EN_IC
 
 
 def _ic(letter_counts):
-    nominator = sum([letter_counts[l]*(letter_counts[l]-1) for l in string.ascii_uppercase])
+    numerator = sum([letter_counts[l]*(letter_counts[l]-1) for l in string.ascii_uppercase])
     text_size = sum(occurrences for occurrences in letter_counts.values())
     denominator = text_size*(text_size-1)
-    return nominator/denominator
+    return numerator/denominator
 
 
 def find_key_length(cyphertext, max_key_len):
