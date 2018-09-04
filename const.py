@@ -1,5 +1,5 @@
 # Defaults
-SEQ_LEN = 5
+SEQ_LEN = 7
 MAX_KEY_LEN = 8
 EN_IC = 0.67
 EN_REL_FREQ = {'A': 0.08167, 'B': 0.01492, 'C': 0.02782, 'D': 0.04253, 'E': 0.12702, 'F': 0.02228, 'G': 0.02015,
