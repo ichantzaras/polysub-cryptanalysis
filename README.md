@@ -1,5 +1,5 @@
 <h1 align="center">
-creamcrackerz
+polysub-cryptanalysis 
 </h1>
 
 Examples of applying [Kasiski examination](https://en.wikipedia.org/wiki/Kasiski_examination) and [Index of Coincidence](https://en.wikipedia.org/wiki/Index_of_coincidence) along with [Frequency analysis](https://en.wikipedia.org/wiki/Frequency_analysis) to restore cryptographic key of Vigenere encypted ciphertext and decrypt it.
